@@ -58,7 +58,7 @@ const HeroContent = () => {
               className="py-2 button-primary text-center text-white cursor-pointer rounded-lg w-[40px] h-[40px] flex items-center justify-center p-2"
           >
             <Image
-                src="/gitwhite.png"
+                src="./gitwhite.png"
                 alt="work icons"
                 onClick={()=> window.open(Socials[1].url, "_blank")}
 
@@ -71,7 +71,7 @@ const HeroContent = () => {
               className="py-2 button-primary text-center text-white cursor-pointer rounded-lg w-[40px] h-[40px] flex items-center justify-center p-2"
           >
             <Image
-                src="/instagram.svg"
+                src="./instagram.svg"
                 alt="work icons"
                 onClick={()=> window.open(Socials[0].url, "_blank")}
                 height={30}
@@ -86,7 +86,7 @@ const HeroContent = () => {
         className="w-full h-full flex justify-center items-center"
       >
         <Image
-          src="/mainIconsdark.svg"
+          src="./mainIconsdark.svg"
           alt="work icons"
           height={750}
           width={750}
